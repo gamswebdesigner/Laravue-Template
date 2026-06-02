@@ -1,0 +1,13 @@
+# Dependências (O que você queria ignorar)
+/vendor
+/node_modules
+
+# Segurança (OBRIGATÓRIO)
+.env
+
+# Lixo de execução (Para não poluir seu Git)
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+/public/storage
